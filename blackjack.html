@@ -1,0 +1,52 @@
+<style>
+    body{
+        text-align:center;
+        background-image: url("https://media.istockphoto.com/photos/green-felt-surface-with-light-copy-space-in-center-picture-id672546436?k=20&m=672546436&s=612x612&w=0&h=4KKZA0aVkz2VJKBcTJM9TAGwa7r618OnB1nN8sFZ6mc=");
+        background-repeat:no-repeat;
+        background-size: cover;
+        border: 2px solid black;
+        height:350px;
+        width:500px;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+    }
+    button{
+        color:white;
+        border:none;
+        background-color: rgb(7, 85, 18);
+        margin-top: 5px;
+        width:200px;
+        height:30px;
+    }
+    #billard{
+        background-color: rgb(11, 105, 11);
+        height:340px;
+        padding-top: 10px;
+    }
+
+</style>
+<html>
+    <header>
+        <title>Blackjack</title>
+    </header>
+
+    <head>
+
+    </head>
+
+    <body>
+        <div id = "billard">
+            <h1>Blackjack</h1>
+            <p id="message-el">Hello and welcome to Blackjack! </p>
+            <p id="bet-el"></p>
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum: </p>
+            <button onclick ="startGame()">Start Game</button>
+            <br>
+            <button onclick ="addCard()">Add Card</button>
+            <p id="player-el"></p>
+        </div>
+        <script src="blackjack.js"></script>
+    </body>
+</html>
